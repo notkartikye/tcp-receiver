@@ -1,4 +1,4 @@
-# TCP Receiver
+# TCP Receiver Implementation
 
 This project implements a TCP receiver, decomposed into three primary components: a ByteStream class, a Reassembler class, and the TCP Receiver itself.
 
@@ -9,13 +9,6 @@ This project implements a TCP receiver, decomposed into three primary components
 - **TCP Receiver:** Integrates the ByteStream and Reassembler, handling TCP segments and generating appropriate acknowledgments.
 
 ## Getting Started
-
-### Prerequisites
-
-- CMake
-- Make
-
-### Installation
 
 1. Clone the repository:
    ```sh
